@@ -54,6 +54,6 @@ with socket.socket(socket.AF_INET,socket.SOCK_STREAM) as s:
 print(f"Received{data!r}")    
 
 ## OUTPUT:
-![output](<img/output exp 1.png>)
+img/output exp 1.png
 ## RESULT:
 The program is executed successfully
