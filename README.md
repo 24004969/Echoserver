@@ -38,7 +38,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
             if not data:
                 break
             conn.sendall(data)
-
+~~~
 # echo-client.py
 ~~~py
 import socket
@@ -52,8 +52,9 @@ with socket.socket(socket.AF_INET,socket.SOCK_STREAM) as s:
     data = s.recv(1024)
 
 print(f"Received{data!r}")    
-
+~~~
 ## OUTPUT:
-img/output exp 1.png
+<img width="1279" height="798" alt="Screenshot 2025-11-13 090258" src="https://github.com/user-attachments/assets/88de7a3f-aa6e-487c-bbff-6d562c562480" />
+
 ## RESULT:
 The program is executed successfully
